@@ -7,14 +7,28 @@
       "src": "https://cdn-icons-png.flaticon.com/512/2103/2103633.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2103/2103633.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
-  "start_url": ".",
+  "start_url": "./index.html",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#020617",
   "theme_color": "#2563eb",
+  "display_override": [
+    "standalone",
+    "window-controls-overlay"
+  ],
+  "categories": [
+    "productivity",
+    "education"
+  ],
   "requestFramePermissions": [
     "camera",
     "microphone",
